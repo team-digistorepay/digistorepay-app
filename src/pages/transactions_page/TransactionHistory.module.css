@@ -1,0 +1,73 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--white);
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 1rem 1rem;
+  /* box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.2); */
+  border-radius: 15px;
+  margin: 1rem;
+}
+
+.headerSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.planAmount {
+  font-weight: bold;
+  color: var(--jetblack);
+}
+
+.invoice {
+  cursor: pointer;
+}
+
+.invoice:hover {
+  color: var(--honoblue);
+}
+
+.button {
+  background-color: var(--honoblue);
+  color: white;
+  padding: 0.25rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--orangepeel);
+  color: var(--jetblack);
+}
+
+.description {
+  background-color: var(--snowwhite);
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+.success {
+  color: rgba(6, 195, 6, 0.703);
+}
+
+.failure {
+  color: red;
+}
+
+.heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--honoblue);
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .mainContainer {
+    margin: 1rem;
+  }
+}

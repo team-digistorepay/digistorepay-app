@@ -1,0 +1,16 @@
+.heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--honoblue);
+    margin-bottom: 3rem;
+    margin-top: 0;
+  }
+  
+  .btn {
+    margin: 2rem 0;
+  }
+  
+  .mainContainer {
+    padding: 1rem;
+  }
+  

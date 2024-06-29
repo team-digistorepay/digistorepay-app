@@ -1,0 +1,30 @@
+.detailSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+input {
+  margin-top: 1rem;
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  background-color: var(--white);
+  color: var(--honoblue);
+  padding: 0.5em;
+  border: 1px solid var(--mint);
+  border-radius: 3px;
+  margin-right: 1rem;
+}
+
+  .namediv{
+    margin-right: 3rem;
+  }
+
+  @media only screen and (max-width: 576px) {
+    .detailSection{
+      flex-direction: column;
+    }
+  }

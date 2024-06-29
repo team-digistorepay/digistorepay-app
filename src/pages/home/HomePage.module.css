@@ -1,0 +1,17 @@
+.container {
+  background-color: var(--snowwhite);
+  display: block;
+  min-height: calc(100vh - 80px);
+  padding-top: 80px;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets//herobg.png");
+  min-height: calc(100vh - 80px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
